@@ -1,0 +1,335 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  /* Obtained from CSS _Completed_Tutorial_Files */
+  font-family: 'Roboto', sans-serif; 
+  /* font-family: "Quan", Verdana, sans-serif; */
+  padding: 2rem;
+  
+  body {
+
+}
+  
+
+}
+
+.element {
+  padding-bottom: 10rem;
+  border-top-width: 0.30rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h2 {
+  margin-top: 6rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-top: 0;
+  width: 50%;
+}
+
+/*nav a:hover, nav a:focus {
+  text-decoration:none;
+
+}*/
+
+/* nav a:active {
+  text-decoration:overline;
+
+} */
+
+ul{
+  list-style: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+.navigation{
+  background-color: #333;
+  overflow: hidden;
+
+}
+
+.navigation a {
+  float: left;
+  font-size: 15px;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-around;
+  padding-right: 275px;
+  margin-top: -5px;
+  padding-top: 10px
+
+}
+
+.navigation a:hover, focus {
+ opacity: .7;
+  text-decoration: underline;
+  transition-duration: 1s;
+  font-size: 18px;
+}
+
+.navigation a.active {
+  background-color: #4CAF50;
+  color: red;
+}
+
+
+
+
+/* button{
+
+
+
+  background-color: rgb(60,120,170);
+  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+ color: rgb(250,202,200);
+  border:  rgb(100,50,50);
+}
+
+ */
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+
+/* Styling for the navigation button */
+
+button {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+button:hover, button:focus {
+  background-color: rgb(256,180,127);
+}
+.button1-nav1{
+  background-color: rgb(255,255,255);
+	color: #4b4b4b;
+  text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	transition: background-color 0.4s;
+  display: inline-block;
+justify-content: space-around;
+ flex-wrap: wrap;
+  border:1px solid #4b4b4b;
+}
+
+.button1-nav1:hover, .button1-nav1:active, .button1-nav1:focus {
+	background-color: #FCF4D9;
+	color: #4b4b4b;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.button1-nav1:active{
+
+text-decoration: underline;
+}
+
+/* .button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+} */
+
+/* .button-nav{
+  display: inline;
+  background-color: #FFB85F;
+  color: #4b4b4b;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  transition: background-color 0.4s;
+  width: 100%;
+  border:1px solid #4b4b4b;
+} */
+
+
+
+.imagecolor img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.button-nav:hover, .button-nav:focus {
+color: rgb(255, 180, 127);
+}
+
+a:hover {
+  color: rgb(200, 200, 255);
+}
+
+a:active {
+  color: rgb(205, 150, 127);
+}
+
+a:focus {
+  color: rgb(205, 150, 127);
+}
+
+
+
+/* https://www.w3schools.com/css/css_pseudo_classes.asp */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_link */
+
+.InTextLink:hover{
+  color: rgb(100, 100, 255);
+  border-style: dashed;
+  border-width: .1px
+}
+
+/* .InTextLink:active{
+    color: rgb(205, 150, 127);
+} */
+
+.InTextLink:focus{
+  color: red;
+}
+
+.InTextLink{
+  text-decoration: overline;
+}
+
+
+.images:hover{
+  border-style: dashed;
+  color: rgb(255, 200, 127);
+}
+
+.images:focus{
+    color: red;
+}
+
+/* https://www.w3schools.com/css/css_form.asp */
+
+#form-subject10:hover, #form-subject11:hover,#form-subject12:hover,#form-subject13:hover,#form-subject14:hover,#form-subject15:hover,#form-subject16:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject17:hover,#form-subject19:hover,#form-subject20:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject10:focus, #form-subject11:focus,#form-subject12:focus,#form-subject13:focus,#form-subject14:focus,#form-subject15:focus,#form-subject16:focus{
+  background-color: rgb(200, 200, 127);
+
+}
+
+#form-subject17:focus,#form-subject19:focus,#form-subject20:focus{
+  background-color: rgb(200, 200, 127);
+
+}
+
+
+
+
+
+
+
+/* Changes the color of the nav bar item when active */
+/* .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+} */
+
+
+/* body {
+	font-family: 'Poppins', sans-serif;
+} */
+
+/* #form-subject12:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject13:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject14:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject15:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject16:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject17:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+
+#form-subject18:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject19:hover{
+  background-color: rgb(255, 200, 127);
+
+}
+
+#form-subject20:hover{
+  background-color: rgb(255, 200, 127);
+
+} */
+
+
+/* .NameForm1:focus{
+  color: rgb(170, 170, 170);
+} */
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/

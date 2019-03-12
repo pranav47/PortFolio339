@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav's Style Guide</title>
+    <script src="js/script.js"></script>
+    <link href="css/styleGuideCSS.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body>
+
+<div class="navigation">
+  <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutMe.html">About Me</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+<h1>Portfolio Style Guide</h1>
+
+
+<!-- <button type="button" onclick="myFunction()">Set background color</button> -->
+
+<!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+      <section class="element">
+
+        <h3>In-text link</h3>
+        <!-- // Used this resource for help in this component https://www.w3schools.com/html/html_links.asp -->
+        <h4>Sample code:</h4>
+        <code> &lt;p&gt;This is an;&lt;a class = "InTextLink" href="#">In-text link&lt;/a&gt;&lt;/p&gt; </code>
+          <h4>Rendered Element</h4>
+        <p> This is an <a class = "InTextLink" href="#">In-text link</a> </p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <h4>Rendered element:</h4> <br> <br>
+        <a class="button1-nav1" href="#">Default Button</a>
+      </section>
+
+
+
+  
+
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <!-- //The code for this component was obtained from 01-HTML_-_Completed_Tutorial_Files file. -->
+
+
+        <h4>Sample code:</h4>
+        <code>&lt;label for="form-subject"&gt;Text Input Field with Label:&lt;/label&gt;</code>
+        <code> &lt;input type="text" id="form-subject" placeholder="Label"&gt; </code>
+        <h4> Rendered Element </h4>
+        <label for="form-subject">Text Input Field with Label:</label>
+        <input type="text" id="form-subject" placeholder="Placeholder">
+      </section>
+
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <!-- https://www.w3schools.com/tags/tag_label.asp -->
+
+
+
+        <h4>Sample code:</h4>
+        <code>&lt;label for="Label1"&gt;Label&lt;/label&gt;
+          &lt;input type="radio" name="Label" id="Id" value="Label"&gt; </code>
+          <h4> Rendered Element </h4>
+          <input type="radio" name="gender" id="Label1" value="male">
+            <label for="Label1">Label</label>
+        </section>
+
+
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <!-- Reference https://www.w3schools.com/html/html_links.asp -->
+
+        <!-- <h4>Sample code:</h4>
+      <code> &lt;a&gt; href="#"&gt;  &lt;img src="robot1.png" alt="HTML tutorial"&gt; &lt;/a&gt; </code>
+
+        <h4> Rendered Element </h4>
+        <a href="#">
+        <img src = "img\roboo.png" alt="Image">
+        </a> -->
+        <h4>Sample code:</h4>
+      <code> &lt;a class="images" href="#"&gt;&lt;img src="img/roboo.png" alt="roboo"&gt; &lt;/a&gt; </code>
+
+        <h4> Rendered Element </h4>
+        <a class="images" href="#"> <img src="img/roboo.PNG" alt="roboo"> </a>
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h4>Sample code:</h4>
+        <code> &lt;h1&gt;This is h1&lt;/h1&gt; </code>
+        <code> &lt;h2&gt;This is h2&lt;/h2&gt; </code>
+        <code> &lt;h3&gt;This is h3&lt;/h3&gt; </code>
+        <code> &lt;h4&gt;This is h4&lt;/h4&gt; </code>
+        <h4> Rendered Element </h4>
+        <h1>This is h1</h1>
+        <h2>This is h2</h2>
+        <h3>This is h3</h3>
+        <h4>This is h4</h4>
+      </section>
+
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <h4>Sample code:</h4>
+        <code> &lt;p&gt;This is a paragraph&lt;p&gt; </code>
+        <h4> Rendered Element </h4>
+        <p>This is a paragraph<p>
+      </section>
+
+
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <!-- https://www.w3schools.com/html/html_lists.asp -->
+        <h4>Sample code:</h4>
+        <code>
+           &lt;ol&gt;
+          &lt;li&gt;Element1&lt;/li&gt;
+          &lt;li&gt;Element2&lt;/li&gt;
+          &lt;li&gt;Element3&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+        <h4> Rendered Element </h4>
+        <ol>
+       <li>Element1</li>
+       <li>Element2</li>
+       <li>Element3</li>
+       </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+
+
+
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section class="element">
+      <h3>Art Direction</h3>
+      <h4>Colour Palette</h4>
+      <div class="imagecolor">
+        <img src="img/colors.png" alt="colour palette">
+      </div>
+      <h4>Typefaces Used</h4>
+      <p>Poppins<p>
+    </section>
+
+
+<!-- https://www.w3schools.com/css/css3_buttons.asp -->
+<!-- https://fonts.google.com/specimen/Poppins?selection.family=Poppins -->
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form -->
+  <!-- https://www.w3schools.com/howto/howto_css_product_card.asp -->
+  <!-- https://medium.freecodecamp.org/how-to-easily-build-mashables-navigation-bar-with-html-and-css-9e5007af786 -->
+
+          <!-- https://www.w3schools.com/tags/att_button_type.asp -->
+      <!-- https://www.w3schools.com/html/html_links.asp -->
+      <!-- https://www.w3schools.com/tags/tag_label.asp -->
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Ah. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+          <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://www.w3schools.com/css/css3_buttons.asp">URL</a>.</li>
+          <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Poppins?selection.family=Poppins">URL</a>.</li>
+            <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form">URL</a>.</li>
+              <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://medium.freecodecamp.org/how-to-easily-build-mashables-navigation-bar-with-html-and-css-9e5007af786">URL</a>.</li>
+            <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://www.w3schools.com/tags/att_button_type.asp">URL</a>.</li>
+            <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://www.w3schools.com/html/html_links.asp">URL</a>.</li>
+          <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://www.w3schools.com/html/html_links.asp">URL</a>.</li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">URL</a>.</li>
+
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>

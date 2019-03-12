@@ -1,0 +1,85 @@
+body {
+  /*font-family: sans-serif;*/
+   font-family: 'Roboto', sans-serif; 
+  padding: 2rem;
+}
+
+
+
+.navigation{
+	background-color: #333;
+  overflow: hidden;
+}
+
+.navigation a {
+  float: left;
+  font-size: 15px;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-around;
+  padding-right: 275px;
+  margin-top: -5px;
+  padding-top: 10px
+}
+
+.navigation a:hover, focus {
+ opacity: .7;
+  text-decoration: underline;
+  transition-duration: 1s;
+  font-size: 18px;
+}
+
+.navigation a.active {
+  background-color: #4CAF50;
+  color: red;
+}
+
+ul{
+	list-style: none;
+}
+
+.projectsList {
+	display: inline-block;
+	margin-top: 20px;
+	/*padding-left: 100px;*/
+	
+}
+
+
+.projectsList button{
+	background: black;
+	padding: 50px;
+	padding-right: 40px;
+}
+
+.projectsList button:hover{
+	opacity: .7;
+  text-decoration: underline;
+  transition-duration: 1s;
+  font-size: 18px;
+  background-image: url('img/gradient1.jpeg');
+  
+}
+
+.projectsList a{
+	color: white;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.Project1{
+	line-height: 1.5;
+}
+
+.Project1 ul{
+	margin-left: -30px;
+	line-height: 2.5;
+}
+
+#button1 button:hover{
+	background: url('../img/gradient1.jpeg') bottom;
+}
+ 
+
+
