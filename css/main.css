@@ -83,3 +83,69 @@ ul{
  
 
 
+.Project1{
+margin-right: 500px;
+line-height: 30px;
+padding-top: 10px;
+}
+
+.docs img{
+  max-width: 600px;
+  max-height: auto;
+
+}
+
+
+.Project1 h3{
+text-decoration: underline;
+}
+
+.button1-nav1 button{
+  margin-top: 20px;
+  background-color: rgb(255,255,255);
+  color: #4b4b4b;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  transition: background-color 0.4s;
+  display: inline-block;
+justify-content: space-around;
+ flex-wrap: wrap;
+  border:1px solid #4b4b4b;
+}
+
+.button1-nav1 button:hover, .button1-nav1 button:active, .button1-nav1 button:focus {
+  background-color: #FCF4D9;
+  color: #4b4b4b;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.button1-nav1 button:active{
+
+text-decoration: underline;
+}
+
+
+.project2{
+  margin-right: 400px;
+  line-height: 30px;
+}
+
+.project2 img{
+ max-width: 500px;
+}
+
+.project2 h3{
+text-decoration: underline;
+}
+
+.home{
+  margin-top: 125px;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+
