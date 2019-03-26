@@ -72,6 +72,7 @@ nav a:hover, nav a:focus {
   color: #4b4b4b;
   font-weight: bold;
   text-decoration: underline;
+
 }
 
 nav{
@@ -111,7 +112,7 @@ margin-right: -25px;
 }
 
 .navImg a:hover{
-opacity: .7
+opacity: .4
 
 }
 
@@ -149,10 +150,11 @@ opacity: .7
 }
 
 .projectsList button:hover{
-	opacity: .7;
+	opacity: .3;
   text-decoration: none;
   transition-duration: 1s;
- 
+  font-weight: bold;
+  color: black;
   background-image: url('img/gradient1.jpeg');
   
 }
@@ -185,6 +187,12 @@ opacity: .7
   background: url('../img/Build3.png') bottom;
   background-size: 100%;
 }
+
+#button2 button:hover{
+  background: url('../img/Build2.png') bottom;
+   background-size: 100%;
+}
+
  
 
 
@@ -268,3 +276,12 @@ p {
 /*  max-width: 800px;*/
 }
 
+.socialIcons img{
+max-width: 50px;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.socialIcons img:hover{
+opacity: .6;
+}
