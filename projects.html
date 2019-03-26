@@ -10,16 +10,19 @@
 
   <body>
 
-<div class="navigation">
-	<nav>
-		<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="aboutMe.html">About Me</a></li>
-		<li><a href="projects.html">Projects</a></li>
-		<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-</div>
+ <nav>
+   <div class="navImg">
+    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+  </div>
+
+<div class="navLinks">
+    <a href="aboutMe.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>  
+  </nav>
+
+<div class="content">
 
 <h1> Projects</h1>
 
@@ -28,19 +31,22 @@
 <div class="projectsBar">
 <section class="projectsList">
 <div id="button1">
-<button><a href="project1.html">Visual Design</a></button>
+<button onclick="window.location.href = 'project1.html';">Visual Design</button>
 </div>
-<section class="projectsList">
+
+
 <div id="button2">
-<button><a href="project2.html">Game Programming</a></button>
+<button onclick="window.location.href = 'project2.html';">Game Programming</button>
 </div>
-<section class="projectsList">
+
+
 <div id="button3">
 <button><a href="project3.html">Coming Soon</a></button>
 </div>
+
 </section>
 </div>
 
-
+  </div>
   </body>
 </html>

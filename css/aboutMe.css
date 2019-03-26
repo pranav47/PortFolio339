@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-     padding: 2rem;
+    /* padding: 2rem;*/
      /*display: flex;
      flex-wrap: wrap;*/
    /*text-align: center;*/
@@ -23,13 +23,9 @@ p{
 
 }
 
-img{
-	
-	margin-top: 30px;
-	max-height: 600px;
-	max-width: 600px
-	max-height: auto;
-
+#mypic img{
+	max-width: 600px;
+	width: 100%;
 }
 
 
