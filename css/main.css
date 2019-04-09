@@ -217,7 +217,7 @@ width: 100%;
 
 .docs img{
   max-width: 600px;
-  max-height: auto;
+  /*max-height: auto;*/
 }
 
 
