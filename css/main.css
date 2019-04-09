@@ -358,7 +358,7 @@ canvas {
 .home{
   background-color: rgba(248, 248, 248);
   padding: 2em
-
+  
 }
 
 .docs{
@@ -423,3 +423,19 @@ padding:5px;
   border-style: solid;
 
 }*/
+
+.project21{
+  max-width:600px; 
+  line-height: 30px;
+  background-color: white;
+}
+
+.aboutStuff{
+   max-width: 700px;
+   line-height: 30px;
+ background-color: white;
+}
+
+.abtstuff{
+  background-color: white;
+}
